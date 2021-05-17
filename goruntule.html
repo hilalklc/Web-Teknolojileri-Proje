@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Hilal KILIÇ Web Teknolojileri Proje</title>
+
+
+  </head>
+  <body>
+   <main>
+  <div class="container py-4">
+  <header class="d-flex flex-wrap bg-light justify-content-center p-4 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <span class="fs-3">Hilal KILIÇ</span>
+    </a>
+    <ul class="nav nav-pills ">
+      <li class="nav-item"><a href="index.html" class="nav-link">Hakkımda</a></li>
+      <li class="nav-item"><a href="ozGecmis.html" class="nav-link">Öz Geçmiş</a></li>
+      <li class="nav-item"><a href="sehrim.html" class="nav-link">Şehrim</a></li>
+      <li class="nav-item"><a href="mirasimiz.html" class="nav-link">Mirasımız</a></li>
+      <li class="nav-item"><a href="iletisim.html" class="nav-link">İletişim</a></li>
+	   <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+    </ul>
+  </header>
+
+    <div class="container">
+		<div class="bg-info text-light jumbotron balikcilar-jumbotron">
+
+			<div class="container">
+
+				<div class="col-md-6 px-0">
+					<h1 class="display-4 font-italic">
+						Başarılı!!
+					</h1>
+				</div>
+
+			</div>
+
+		</div>
+		</div>
+	</div>
+	
+		<main>
+
+		<div class="container">
+			
+			<div class="row">
+
+
+
+
+				<script type="text/javascript">
+
+					function getParameterByName(name, url) 
+					{
+		            	if (!url) url = window.location.href;
+    		       		name = name.replace(/[\[\]]/g, '\\$&');
+        		    	var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+            		    	results = regex.exec(url);
+           				if (!results) return null;
+           				if (!results[2]) return '';
+           				return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        			}
+
+  				    var name = getParameterByName('name');
+  				    var email = getParameterByName('email');
+  				    var message = getParameterByName('message');
+
+				</script>
+
+				<table class="table">
+						<thead class="table-info">
+							<tr>
+								<th>Başarılı Bir şekilde Gönderdiniz :)</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<tr>
+								<td>İsminiz</td>
+								<td>
+									<script>document.write(name);
+									</script>
+								</td>
+							</tr>
+	
+							<tr>
+								<td>E-Mail</td>
+								<td>
+									<script>document.write(email);
+									</script>
+								</td>
+							</tr>
+	
+							<tr>
+								<td>Mesajınız</td>
+								<td>
+									<script>document.write(message);
+									</script>
+								</td>
+							</tr>
+	
+						</tbody>
+					
+				</table>	
+
+
+			</div>
+
+		</div>
+
+	</main>
+
+ <footer class="bg-light text-center py-3 mb-4 ">
+
+  <!-- Copyright -->
+  <div class="text-center bg-light">
+    © 2021 Hilal KILIÇ Proje Ödev
+  </div>
+  <!-- Copyright -->
+
+</footer>
+  </div>
+</main>
+  </body>
+</html>
