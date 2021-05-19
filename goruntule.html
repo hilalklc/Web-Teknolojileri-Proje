@@ -31,21 +31,6 @@
                 </ul>
             </header>
 
-            <div class="container">
-                <div class="bg-info text-light jumbotron balikcilar-jumbotron">
-
-                    <div class="container">
-
-                        <div class="col-md-6 px-0">
-                            <h1 class="display-4 font-italic">
-                                Başarılı!!
-                            </h1>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
         </div>
 
         <main>
@@ -71,9 +56,12 @@
                         var name = getParameterByName('name');
                         var email = getParameterByName('email');
                         var message = getParameterByName('message');
+                        var cinsiyet = getParameterByName('cinsiyet');
+                        var sehir = getParameterByName('sehir');
                     </script>
 
                     <table class="table">
+
                         <thead class="table-info">
                             <tr>
                                 <th>Başarılı Bir şekilde Gönderdiniz :)</th>
@@ -86,6 +74,24 @@
                                 <td>
                                     <script>
                                         document.write(name);
+                                    </script>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Cinsiyetiniz</td>
+                                <td>
+                                    <script>
+                                        document.write(cinsiyet);
+                                    </script>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Şehriniz</td>
+                                <td>
+                                    <script>
+                                        document.write(sehir);
                                     </script>
                                 </td>
                             </tr>
@@ -118,7 +124,7 @@
             </div>
 
         </main>
-
+        <br><br><br><br><br><br><br><br><br>
         <footer class="bg-menu text-center py-3 mb-4 ">
 
             <!-- Copyright -->
