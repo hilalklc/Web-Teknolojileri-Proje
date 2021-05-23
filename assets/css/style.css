@@ -51,3 +51,11 @@
 .text-dark {
     color: #f8f9fa!important;
 }
+
+.quote__text {
+    color: black;
+    margin: 0;
+    font-size: clamp(1.3rem, 2vw, 2rem);
+    text-align: center;
+    font-family: "Architects Daughter", cursive;
+}
